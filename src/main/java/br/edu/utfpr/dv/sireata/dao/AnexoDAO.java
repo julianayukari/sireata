@@ -8,9 +8,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.edu.utfpr.dv.sireata.generic.GenericDAO;
 import br.edu.utfpr.dv.sireata.model.Anexo;
 
-public class AnexoDAO {
+public class AnexoDAO extends GenericDAO{
 	
 	public Anexo buscarPorId(int id) throws SQLException{
 
